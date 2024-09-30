@@ -1,0 +1,17 @@
+<%- include('layout') %>
+<div class='row'>
+    <div class='col-5 mx-auto'>
+        <h3>Edit Item</h3><hr>
+        <form method='post' action='/edit_item/<%= datas.ID %>'>
+            <div class='form-group'>
+                <label>Item Name</label>
+                <input type='text' name='iname' required class='form-control' value='<%= datas.INAME %>'>
+            </div>
+            <div class='form-group'>
+                <label>Quantity</label>
+                <input type='text' name='quantity' required class='form-control' value='<%= datas.QUANTITY %>'>
+            </div>
+            <input type='submit' value='Submit' class='btn btn-primary'>
+        </form>
+    </div>
+</div>
