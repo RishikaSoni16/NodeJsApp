@@ -6,4 +6,4 @@ node app.js
 
 <h5>Open your web browser and go to http://localhost:3000</h5>
 
- ![My Project Screenshot](https://github.com/RishikaSoni16/NodeJsApp/blob/main/Screenshot%20(359).png?raw=true)
+![My Project Screenshot](https://github.com/RishikaSoni16/NodeJsApp/blob/main/Screenshot.png?raw=true)
